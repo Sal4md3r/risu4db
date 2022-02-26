@@ -7,20 +7,27 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PaginaPruebaPage } from '../pages/pagina-prueba/pagina-prueba';
+<<<<<<< HEAD
 import {MConexionesPage} from '../pages/m-conexiones/m-conexiones';
 import {MprincipalPage} from '../pages/mprincipal/mprincipal';
 import {IConexionPage} from '../pages/i-conexion/i-conexion';
 import {MTablasPage} from '../pages/m-tablas/m-tablas';
+=======
+>>>>>>> 8362fefdeedaf2c896657fb1399ff6afe221a89c
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
+<<<<<<< HEAD
     PaginaPruebaPage,
     MConexionesPage,
     MprincipalPage,
     IConexionPage,
     MTablasPage
+=======
+    PaginaPruebaPage
+>>>>>>> 8362fefdeedaf2c896657fb1399ff6afe221a89c
   ],
   imports: [
     BrowserModule,
@@ -30,11 +37,15 @@ import {MTablasPage} from '../pages/m-tablas/m-tablas';
   entryComponents: [
     MyApp,
     HomePage,
+<<<<<<< HEAD
     PaginaPruebaPage,
     MConexionesPage,
     MprincipalPage,
     IConexionPage,
     MTablasPage
+=======
+    PaginaPruebaPage
+>>>>>>> 8362fefdeedaf2c896657fb1399ff6afe221a89c
   ],
   providers: [
     StatusBar,
